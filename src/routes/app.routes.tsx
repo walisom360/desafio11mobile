@@ -33,7 +33,7 @@ const AppRoutes: React.FC = () => (
       <App.Screen
         name="FoodDetails"
         component={FoodDetails}
-        options={({ navigation }) => ({
+        options={({ navigation }: any) => ({
           headerLeft: () => (
             <Icon
               name="arrow-left"
